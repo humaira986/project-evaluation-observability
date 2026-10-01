@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.0, pytest-9.1.1, pluggy-1.6.0 -- /workspace/Build a Validated, Routed Insurance Policy Extraction Pipeline/04-hitl-routing/starter/.venv/bin/python3.13
+cachedir: .pytest_cache
+rootdir: /workspace/Build a Validated, Routed Insurance Policy Extraction Pipeline/04-hitl-routing/starter
+configfile: pyproject.toml
+plugins: asyncio-1.4.0, anyio-4.15.1
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 14 items / 13 deselected / 1 selected
+
+tests/test_us01_retry.py::test_ac_01_04_missing_source_halts_immediately PASSED
+
+======================= 1 passed, 13 deselected in 0.03s =======================
